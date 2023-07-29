@@ -13,7 +13,7 @@ export default function Experience() {
     <section id='experience'>
         <header>
             <div className='line'></div>
-            <h2>Experice and Professional achievements</h2>
+            <h2 style={{display:'flex', alignItems:'center',gap:'5px',flexDirection:'column'}}>Experice<span style={{fontSize:'12px'}}>and Professional achievements</span></h2>
             <div className='line'></div>
         </header>
         <div className='experience-container'>

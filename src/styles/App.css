@@ -164,7 +164,7 @@ article h4{
 
 .creations-container{
     display: grid;
-    width: 1000px;
+    width: 70%;
     grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
     gap: 10px;
 }
