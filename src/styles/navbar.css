@@ -1,0 +1,63 @@
+#main-navbar{
+    position: fixed;
+    right: 80px;
+    bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#navbar-menu{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 0;
+}
+.navbar-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.sidenavbar-btn{
+    font-size: clamp(1.0rem, 2vw + 0.5rem, 1.75rem);
+    font-family: 'VT323', monospace;
+    border: none;
+    cursor: pointer;
+    background: none;
+    gap: 2px;
+    position: relative;
+    color: #AC75F3;
+}
+svg.social-media{
+    width: 1em;
+    fill: #AC75F3;
+}
+svg.rocket{
+    position: absolute;
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    left: -25px;
+    bottom: 2.5px;
+}
+.sidenavbar-btn:hover svg.rocket{
+    animation:shake-horizontal 1s linear both;
+    opacity: 1;
+}
+.sidenavbar-btn:hover{
+    color: #8892b0;
+}
+
+svg.social-media:hover{
+    fill: #8892b0;
+}
+
+@media (max-width: 768px) {
+    #main-navbar{
+        display: none;
+    }
+}
+
+@keyframes shake-horizontal{0%,100%{transform:translateX(0)}10%,30%,50%,70%{transform:translateX(-10px)}20%,40%,60%{transform:translateX(10px)}80%{transform:translateX(8px)}90%{transform:translateX(-8px) }}
