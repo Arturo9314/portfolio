@@ -4,15 +4,29 @@ import { ReactComponent as GithubIcon } from '../assets/icons/github.svg';
 import { ReactComponent as LinkedinIcon } from '../assets/icons/linkedin.svg';
 import { ReactComponent as TwitterIcon } from '../assets/icons/TwitterX.svg';
 import { ReactComponent as RocketIcon } from '../assets/icons/rocket.svg';
+import { ReactComponent as OpenIcon } from '../assets/icons/bars-solid.svg';
+import { ReactComponent as CloseIcon } from '../assets/icons/xmark-solid.svg';
+
+import { useState } from 'react';
 
 export function MainNavbar() {
-
+    const [dropdown, setDropdown] = useState(false)
+    const viewportWidth = window.innerWidth;
+    const handleClickNavbar = ()=>{
+        if(viewportWidth<=768){
+            const dropdownId = document.getElementById('main-navbar')
+            dropdownId.style.display = dropdown ? 'none' : 'flex'
+            setDropdown(!dropdown)
+        }
+    }
   return (
     <>
+        <button onClick={handleClickNavbar} id='device-icon'>
+            {dropdown?<CloseIcon/>:<OpenIcon/>}
+        </button>
         <nav id='main-navbar'>
             <ul id='navbar-menu'>
                 <li>
-                    
                     <a className="nav-link" href='#home'>
                         <button className='sidenavbar-btn'>
                             <RocketIcon className='rocket'/> home

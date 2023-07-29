@@ -54,9 +54,30 @@ svg.social-media:hover{
     fill: #8892b0;
 }
 
+#device-icon{
+    position: fixed;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+    display: none;
+}
+#device-icon svg{
+    fill: #AC75F3;
+    width: 25px;
+}
+
 @media (max-width: 768px) {
+    #device-icon{
+        display: block;
+    }
     #main-navbar{
-        display: none;
+        background-color: #112240;
+        border-radius: 16px;
+        padding: 10px 20px;
+        right: 0;
+        top: 70px;
+        bottom: auto;
     }
 }
 
