@@ -183,7 +183,7 @@ article h4{
     text-align: center;
 }
 .creations-info p{
-    font-size: 16px;
+    font-size: clamp(0.5rem, 2vw , 1.25rem);
     padding: 0 15px;
 }
 .creations-footer{
@@ -208,7 +208,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 50px;
+    padding: 50px 0;
+    font-size: clamp(0.5rem, 2vw , 1.25rem);
 }
 
 @keyframes waviy {

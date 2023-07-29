@@ -72,6 +72,7 @@ svg.social-media:hover{
         display: block;
     }
     #main-navbar{
+        display: none;
         background-color: #112240;
         border-radius: 16px;
         padding: 10px 20px;
