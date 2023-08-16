@@ -39,5 +39,5 @@ export const creations = [{
         title: 'Financial budget analysis',
         description:'Data analysis of the expenditure that make it possible to track the actions taken by the state to advance its governmental, economic, and social goals',
         tools: 'Python, pandas, numpy, matplotlib, google colab',
-        link: 'https://colab.research.google.com/drive/1TJ_oQESJAiHXklRuRdaryYZqRrpt5zH1?usp=sharing'
+        repository: 'https://github.com/Arturo9314/Data_Analysis/blob/8553fe789cb38b12fdc32033b706e28670bfac87/01-FB/Financial_Budget_Analysis.ipynb'
     }]
