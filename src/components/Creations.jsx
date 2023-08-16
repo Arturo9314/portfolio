@@ -17,8 +17,8 @@ export default function Creations() {
                 <p>{e.description}</p>
                 <p>{e.tools}</p>
                 <nav className='creations-footer'>
-                    <a target='new_blank' href={e.repository}><RepositoryIcon/></a>
-                    <a target='new_blank' href={e.link}><PreviewIcon/></a>
+                    {e.repository && <a target='new_blank' href={e.repository}><RepositoryIcon/></a>}
+                    {e.link && <a target='new_blank' href={e.link}><PreviewIcon/></a>}
                 </nav>
             </article>
         ))}

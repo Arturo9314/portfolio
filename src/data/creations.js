@@ -34,4 +34,10 @@ export const creations = [{
     description: 'An app that connects to the restcountries API to produce a list of data about nations.', 
     tools: 'React, Javascript, CSS, HTML', 
     repository: 'https://github.com/Arturo9314/11-FM-Rest-Countries-API', 
-    link: 'https://arturo9314.github.io/11-FM-Rest-Countries-API/'}]
+    link: 'https://arturo9314.github.io/11-FM-Rest-Countries-API/'},{
+        id: 7,
+        title: 'Financial budget analysis',
+        description:'Data analysis of the expenditure that make it possible to track the actions taken by the state to advance its governmental, economic, and social goals',
+        tools: 'Python, pandas, numpy, matplotlib, google colab',
+        link: 'https://colab.research.google.com/drive/1TJ_oQESJAiHXklRuRdaryYZqRrpt5zH1?usp=sharing'
+    }]
