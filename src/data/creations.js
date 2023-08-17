@@ -38,6 +38,13 @@ export const creations = [{
         id: 7,
         title: 'Financial budget analysis',
         description:'Data analysis of the expenditure that make it possible to track the actions taken by the state to advance its governmental, economic, and social goals',
-        tools: 'Python, pandas, numpy, matplotlib, google colab',
+        tools: 'Python, Pandas, Numpy, Matplotlib, Google Colab',
         repository: 'https://github.com/Arturo9314/Data_Analysis/blob/8553fe789cb38b12fdc32033b706e28670bfac87/01-FB/Financial_Budget_Analysis.ipynb'
+    },{
+        id: 8,
+        title: 'Top 2000 Companies Globally analysis.',
+        description: 'Analyzing data from the global ranking of the top 2000 companies based on revenues, profits, assets, and market value offers valuable insights into both the health of the global economy and market dynamics.',
+        tools: 'Python, Pandas, Numpy, Plotly, Google Colab',
+        repository: 'https://github.com/Arturo9314/Data_Analysis/blob/main/02-TC/TopCompanies.ipynb'
     }]
+    
