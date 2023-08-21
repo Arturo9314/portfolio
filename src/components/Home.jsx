@@ -2,6 +2,7 @@ export default function Home() {
   return (
     <section id='home'>
         <header>
+            <i className="sprite"></i>
             <h1>Hi, my name is
               <div className='waviy'>
                 <span style={{'--i':'1'}}>A</span>

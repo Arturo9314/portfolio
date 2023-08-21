@@ -53,6 +53,24 @@ section h2{
 }
 #home>header{
     font-size: clamp(0.75rem, 2vw + 0.25rem, 1.5rem);
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.sprite{
+    display: inline-block;
+    background: url('../assets/icons/R2-Sprite96x170.png') no-repeat;
+    width: 96px;
+    height: 170px;
+    background-position: 0px 0;
+    animation: move 1.5s steps(3) infinite;
+}
+
+@keyframes move {
+    to{
+        background-position: -288px;
+    }
 }
 
 #home h1{
